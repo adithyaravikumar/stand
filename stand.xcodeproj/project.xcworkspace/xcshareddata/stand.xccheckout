@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4654D722-6717-4A77-90AF-CCFF56237B5F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>stand</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2AD6253-7CAD-4127-93F7-8DC9BA367F96</key>
+		<string>https://github.com/adithyaravikumar/stand.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>stand.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2AD6253-7CAD-4127-93F7-8DC9BA367F96</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adithyaravikumar/stand.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2AD6253-7CAD-4127-93F7-8DC9BA367F96</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2AD6253-7CAD-4127-93F7-8DC9BA367F96</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stand</string>
+		</dict>
+	</array>
+</dict>
+</plist>

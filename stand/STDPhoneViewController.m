@@ -99,7 +99,8 @@
 
 -(void)connect
 {
-    NSString* capabilityToken = @"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6InNjb3BlOmNsaWVudDppbmNvbWluZz9jbGllbnROYW1lPW1vbmtleSBzY29wZTpjbGllbnQ6b3V0Z29pbmc_YXBwU2lkPUFQYWJlNzY1MGY2NTRmYzM0NjU1ZmM4MWFlNzFjYWEzZmYmYXBwUGFyYW1zPSZjbGllbnROYW1lPW1vbmtleSIsImlzcyI6IkFDZDllYTQwZTQ1ZDEzZjczOGNiNmJmNTAyNzNiMjBiZjUiLCJleHAiOjEzOTg3OTQ0NjJ9.G4w3dMlKR_xbEX4AswVIkWb3QQqIDnCmh2C4fD-UsNg";
+    //THE CAPABILITY TOKEN NEEDS TO BE RECEIVED FROM TWILIO
+    NSString* capabilityToken = @"";
     
     self.device = [[TCDevice alloc] initWithCapabilityToken:capabilityToken
                                                delegate:nil];
