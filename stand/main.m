@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 stand. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "STDAppDelegate.h"
 
 int main(int argc, char * argv[])

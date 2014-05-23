@@ -7,15 +7,23 @@
 //
 
 #import "STDAppDelegate.h"
+#import "STDCardSwipeViewController.h"
 
 @implementation STDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    STDCardSwipeViewController *rootViewController = [[STDCardSwipeViewController alloc] init];
+    UINavigationController *navStack = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    [navStack setNavigationBarHidden:YES];
+    [self.window setRootViewController:navStack];
+    
     return YES;
 }
 
